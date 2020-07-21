@@ -1,0 +1,38 @@
+{
+  "name": "@jasonmacgowan/adder",
+  "version": "0.0.0",
+  "description": "Line 'em up, add 'em up. You do not need this library.",
+  "author": "Jason Macgowan <1389531+jasonmacgowan@users.noreply.github.com>",
+  "homepage": "https://github.com/jasonmacgowan/math/packages/add#readme",
+  "license": "MIT",
+  "main": "lib/adder.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmacgowan/adder.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest && npm run lint"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonmacgowan/math/issues"
+  },
+  "dependencies": {
+    "@jasonmacgowan/math-add": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "prettier": "2.0.5"
+  }
+}
